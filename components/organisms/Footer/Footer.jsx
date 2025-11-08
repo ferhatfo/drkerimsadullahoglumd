@@ -75,7 +75,6 @@ const Footer = () => {
               
            
               <p className="py-[5px] text-[14px]"><Link href="tel:+905394377607">+90 539 437 76 07 </Link></p>
-              <p className="text-[14px] pt-[5px]"><Link href="mailto:kerimsadullahoglumd@gmail.com">kerimsadullahoglumd@gmail.com</Link></p>
             </div>
           </div>
         </div>

@@ -94,11 +94,11 @@ export default function Slider() {
         </div>
 
         <div
-          className="absolute inset-0 flex flex-col items-start justify-center text-left z-10 pl-[15%] p-4 top-[-10%]"
+          className="absolute inset-0 flex flex-col items-start justify-center text-left z-10  pl-[10%] md:pl-[15%] p-4 top-[-10%]"
           ref={contentRef}
         >
           
-          <h2 className="text-4xl md:text-5xl font-bold max-w-1/2 leading-[55px]">{slides[current].title}</h2>
+          <h2 className="text-4xl md:text-5xl font-bold md:max-w-1/2 max-w-[100%] leading-[55px]">{slides[current].title}</h2>
           <h6 className="text-xl font-regular my-2">{slides[current].altTitle}</h6>
           <p className="mt-4 mb-6 text-base md:text-lg max-w-xl">{slides[current].desc}</p>
           <Link href={slides[current].btnUrl}>
