@@ -69,7 +69,15 @@ export default function ServicesSlider() {
   return (
     <section className="py-5 md:py-15 md:pb-20 pb-10 bg-gray-100" style={{ borderRadius: '30px' }}>
       <h2 className="text-3xl font-bold text-center mb-4">Hizmetlerimiz</h2>
-      <p className="text-sm max-w px-2 md:max-w-1/2 text-center m-auto mb-8">Yüz estetiği ve kulak burun boğaz alanında kapsamlı çözümler sunuyoruz. Rinoplasti, göz kapağı estetiği, yüz gençleştirme ve medikal estetik uygulamalarla doğal güzelliğinizi ön plana çıkarıyoruz. Bunun yanı sıra sinüzit, alerji, burun tıkanıklığı, horlama ve uyku apnesi gibi sağlık sorunlarında modern tedavi yöntemleriyle konforlu bir iyileşme süreci sağlıyoruz. Ameliyatsız radyofrekans işlemleriyle minimal müdahalelerle etkili sonuçlar elde ediyoruz.</p>
+      <p className="text-sm max-w px-2 md:max-w-1/2 text-center m-auto mb-8">Yüz estetiği ve kulak burun boğaz alanında kapsamlı
+        çözümler sunuyoruz. Rinoplasti, göz kapağı estetiği, yüz
+        gençleştirme ve medikal estetik uygulamalarla doğal
+        güzelliğinizi ön plana çıkarıyoruz. Bunun yanı sıra sinüzit,
+        alerji, burun tıkanıklığı, horlama, bai dönmesi ve uyku apnesi
+        gibi sağlık sorunlarında modern tedavi yöntemleriyle
+        konforlu bir iyileşme süreci sağlıyoruz. Ameliyatsız
+        radyofrekans işlemleriyle minimal müdahalelerle etkili
+        sonuçlar elde ediyoruz.</p>
       <Swiper
         ref={swiperRef}
         modules={[Navigation, Autoplay]}

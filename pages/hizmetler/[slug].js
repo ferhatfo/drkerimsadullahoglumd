@@ -185,13 +185,15 @@ export default function ServiceDetailPage({ service }) {
               
               {/* Görsel */}
               <div className="mt-8">
-                <Image
-                  src={service.image}
-                  alt={service.title}
-                  width={1000}
-                  height={600}
-                  className="rounded-xl w-full h-auto shadow-lg"
-                />
+                {service.image && (
+                  <Image
+                    src={service.image}
+                    alt={service.title}
+                    width={1000}
+                    height={600}
+                    className="rounded-xl w-full h-auto shadow-lg"
+                  />
+                )}
               </div>
 
               {/* Navigasyon Butonları */}
